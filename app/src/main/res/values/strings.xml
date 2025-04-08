@@ -14,4 +14,23 @@
 
     <string name="hint_correo">Correo electrónico</string>
     <string name="hint_contrasena">Contraseña</string>
+
+    // BIENVENIDA
+    <string name="nos_alegra_tenerte_aqui">¡NOS ALEGRA TENERTE AQUI!</string>
+    <string name="estas_en_un_espacio">Estas en un espacio donde eres valioso, escuchado y acompañado</string>
+    <string name="iniciar_sesion2">INICIAR SESIÓN</string>
+
+    // REGISTRO
+    <string name="registrate_con_nosotros">¡REGISTRATE CON NOSOTROS!</string>
+    <string name="cuando_celebramos_tu_dia_especial">¿Cuándo celebramos tu día especial?</string>
+    <string name="en_que_te_gustaria_recibir_apoyo">¿En qué te gustaria recibir apoyo? (Ejemplo: ansiedad, autoestima, relaciones, etc...)</string>
+    <string name="como_te_identificas">¿Cómo te identificas? Solo si deseas compartirlo</string>
+    <string name="elige_una_contraseña">Elige una contraseña segura</string>
+    <string name="como_te_llamas">¿Cómo te gustaría que te llamemos?</string>
+    <string name="dejanos_tu_correo">Déjanos tu correo para estar en contacto contigo</string>
+    <string name="apoyo">Apoyo</string>
+    <string name="genero">Genero</string>
+    <string name="name2">Name</string>
+    <string name="listo">Listo</string>
+
 </resources>
