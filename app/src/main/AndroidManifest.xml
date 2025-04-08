@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aplicacionlogin">
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicacionLogin"
         tools:targetApi="31">
+        <activity
+            android:name=".bibliota"
+            android:exported="false" />
+        <activity
+            android:name=".diario"
+            android:exported="false" /> <!-- Segunda pantalla (registro) -->
+        <activity android:name=".ActivityRegistro" /> <!-- Pantalla principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true">

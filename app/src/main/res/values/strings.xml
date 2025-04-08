@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AplicacionLogin</string>
+
+    <string name="te_estabamos_esperando">¡TE ESTABAMOS ESPERANDO!</string>
+    <string name="email_label">EMAIL:</string>
+    <string name="contrasena_label">CONTRASEÑA:</string>
+    <string name="completa_tus_datos">COMPLETA TUS DATOS</string>
+    <string name="registrate_label">REGÍSTRATE</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="te_damos_la_bienvenida_label">¡TE DAMOS LA BIENVENIDA!</string>
+    <string name="content_description_logo">Logo de la aplicación</string>
+
+
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_contrasena">Contraseña</string>
 </resources>
