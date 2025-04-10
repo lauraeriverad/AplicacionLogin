@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/musica"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnEscribir"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#A8B7D0"
+        android:text="Escribir en mi diario"
+        android:textColor="#000000"
+        android:fontFamily="@font/old_italic"/>
+
+    <Button
+        android:id="@+id/btnDias"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="#A8B7D0"
+        android:text="Días en tu Diario"
+        android:textColor="#000000"
+        android:fontFamily="@font/old_italic"/>
+
+    <Button
+        android:id="@+id/btnFrases"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="#A8B7D0"
+        android:text="Frases diarias de reflexión"
+        android:textColor="#000000"
+        android:fontFamily="@font/old_italic"/>
+
+    <Button
+        android:id="@+id/btnVerRegistros"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="#A8B7D0"
+        android:text="Ver mis registros anteriores"
+        android:textColor="#000000"
+        android:fontFamily="@font/old_italic"/>
+</LinearLayout>
