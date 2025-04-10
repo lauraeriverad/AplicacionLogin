@@ -1,6 +1,7 @@
-<resources>
-    <string name="app_name">AplicacionLogin</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- LOGIN -->
+    <string name="app_name">AplicacionLogin</string>
     <string name="te_estabamos_esperando">¡TE ESTABAMOS ESPERANDO!</string>
     <string name="email_label">EMAIL:</string>
     <string name="contrasena_label">CONTRASEÑA:</string>
@@ -10,27 +11,58 @@
     <string name="iniciar_sesion">INICIAR SESIÓN</string>
     <string name="te_damos_la_bienvenida_label">¡TE DAMOS LA BIENVENIDA!</string>
     <string name="content_description_logo">Logo de la aplicación</string>
-
-
     <string name="hint_correo">Correo electrónico</string>
     <string name="hint_contrasena">Contraseña</string>
 
-    // BIENVENIDA
+    <!-- REGISTRO -->
+    <string name="registrate_con_nosotros">Regístrate con nosotros</string>
+    <string name="como_te_gustaria_que_te_llamemos">¿Cómo te gustaría que te llamemos?</string>
+    <string name="dejanos_tu_correo_para_estar_en_contacto_contigo">Déjanos tu correo para estar en contacto contigo</string>
+    <string name="elige_una_contrasena_segura">Elige una contraseña segura</string>
+    <string name="cuando_celebramos_tu_dia_especial">¿Cuándo celebramos tu día especial?</string>
+    <string name="como_te_identificas">¿Cómo te identificas? Solo si deseas compartirlo</string>
+    <string name="apoyo_deseado">¿En qué te gustaría recibir apoyo? (Ejemplo: ansiedad, autoestima, relaciones, etc.)</string>
+    <string name="boton_listo">Listo</string>
+    <string name="hint_nombre">Tu nombre</string>
+    <string name="hint_introduce_correo">Introduce tu correo electrónico</string>
+    <string name="hint_apoyo_deseado">¿En qué te gustaría recibir apoyo?</string>
+    <string name="hint_contrasena_segura">Elige una contraseña segura</string>
+    <string name="selecciona_fecha_especial">Selecciona tu fecha especial</string>
+
+    <!-- BIENVENIDA -->
     <string name="nos_alegra_tenerte_aqui">¡NOS ALEGRA TENERTE AQUI!</string>
     <string name="estas_en_un_espacio">Estas en un espacio donde eres valioso, escuchado y acompañado</string>
     <string name="iniciar_sesion2">INICIAR SESIÓN</string>
 
-    // REGISTRO
-    <string name="registrate_con_nosotros">¡REGISTRATE CON NOSOTROS!</string>
-    <string name="cuando_celebramos_tu_dia_especial">¿Cuándo celebramos tu día especial?</string>
-    <string name="en_que_te_gustaria_recibir_apoyo">¿En qué te gustaria recibir apoyo? (Ejemplo: ansiedad, autoestima, relaciones, etc...)</string>
-    <string name="como_te_identificas">¿Cómo te identificas? Solo si deseas compartirlo</string>
-    <string name="elige_una_contraseña">Elige una contraseña segura</string>
-    <string name="como_te_llamas">¿Cómo te gustaría que te llamemos?</string>
-    <string name="dejanos_tu_correo">Déjanos tu correo para estar en contacto contigo</string>
-    <string name="apoyo">Apoyo</string>
-    <string name="genero">Genero</string>
-    <string name="name2">Name</string>
-    <string name="listo">Listo</string>
+    <!-- BIBLIOTECA -->
+    <string name="biblioteca">BIBLIOTECA DE RECURSOS</string>
+    <string name="mensaje_bienestar">Cada pequeño paso hacia el bienestar cuenta. Encuentra aquí lo que tu corazón y mente necesitan hoy.</string>
+    <string name="btn_videos_autoayuda">Videos de Autoayuda</string>
+    <string name="btn_frases_motivacionales">Frases Motivacionales</string>
+    <string name="btn_playlist">Playlist</string>
+    <string name="btn_reflexiones">Reflexiones</string>
+    <string name="desc_boton_calendario">Botón para abrir el calendario</string>
+    <string name="desc_boton_perfil">Botón para ver el perfil del usuario</string>
+    <string name="desc_boton_diario">Botón para acceder al diario emocional</string>
+    <string name="desc_boton_notificaciones">Botón de notificaciones</string>
+    <string name="desc_boton_noticias">Botón de noticias</string>
+
+    <!-- VIDEOS DE LA BIBLIOTECA -->
+    <string name="mensaje_videos_autoayuda">Cada video es una luz en tu camino, guiándote hacia el bienestar y la paz interior</string>
+    <string name="titulo_videos_autoayuda">VIDEOS DE AUTOAYUDA</string>
+
+    <!-- REFLEXIONES DE LA BIBLIOTECA -->
+    <string name="titulo_reflexiones">REFLEXIONES</string>
+    <string name="titulo_reflexion_1">El peso de un vaso de agua</string>
+    <string name="titulo_reflexion_2">La roca en el camino</string>
+    <string name="titulo_reflexion_3">El coleccionista de insultos</string>
+
+    <!-- LECTURA DEL VASO -->
+    <string name="texto_peso_vaso_agua">El peso de un vaso de agua</string>
+    <string name="cuento_psicologico">Un psicólogo estaba desarrollando una sesión grupal cuando, de repente, levantó un vaso de agua. Todos esperaban la típica pregunta: “¿Está medio lleno o medio vacío?” Sin embargo, preguntó: – ¿Cuánto pesa este vaso? Las respuestas variaron entre 200 y 250 gramos. El psicólogo les respondió: – El peso absoluto no es importante. Depende de cuánto tiempo lo sostengo. Si lo sostengo un minuto, no representará un problema, pero si lo sostengo durante una hora, me dolerá el brazo. Si lo sostengo un día, mi brazo se entumecerá y paralizará. El peso del vaso no ha cambiado, siempre es el mismo. Pero cuanto más tiempo lo sujeto, más pesado y más difícil de soportar se vuelve. Moraleja: Este cuento psicológico nos recuerda que las preocupaciones, los pensamientos negativos, los rencores y el resentimiento son como ese vaso de agua. Si pensamos en ellos un rato, no pasa nada. Si pensamos en ellos todo el día, empiezan a doler. Y si pensamos en ellos durante toda la semana, acabaremos sintiéndonos paralizados e incapaces de hacer nada. Por eso, debemos aprender a dejar ir todo aquello que puede dañarnos.</string>
+
+    <!-- FRASES DE LA BIBLIOTECA -->
+    <string name="titulo_recuerda">Recuerda</string>
+    <string name="mensaje_inspirador">Aunque a veces dudes de ti mismo, quiero recordarte algo: eres valioso, fuerte y único. Cada paso que das, por pequeño que sea, es una muestra de tu valentía. No necesitas ser perfecto para ser increíble. Solo necesitas seguir adelante.</string>
 
 </resources>
