@@ -12,43 +12,43 @@
     <Button
         android:id="@+id/btnEscribir"
         android:layout_width="244dp"
-        android:layout_height="wrap_content"
+        android:layout_height="83dp"
         android:layout_gravity="end"
         android:backgroundTint="#A8B7D0"
+        android:fontFamily="@font/old_italic"
         android:text="Escribir en mi diario"
-        android:textColor="#000000"
-        android:fontFamily="@font/old_italic"/>
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/btnDias"
         android:layout_width="242dp"
-        android:layout_height="wrap_content"
+        android:layout_height="81dp"
         android:layout_gravity="end"
         android:layout_marginTop="38dp"
         android:backgroundTint="#A8B7D0"
+        android:fontFamily="@font/old_italic"
         android:text="Días en tu Diario"
-        android:textColor="#000000"
-        android:fontFamily="@font/old_italic"/>
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/btnFrases"
         android:layout_width="238dp"
-        android:layout_height="wrap_content"
+        android:layout_height="92dp"
         android:layout_gravity="end"
         android:layout_marginTop="38dp"
         android:backgroundTint="#A8B7D0"
+        android:fontFamily="@font/old_italic"
         android:text="Frases diarias de reflexión"
-        android:textColor="#000000"
-        android:fontFamily="@font/old_italic"/>
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/btnVerRegistros"
         android:layout_width="236dp"
-        android:layout_height="wrap_content"
+        android:layout_height="89dp"
         android:layout_gravity="end|center_vertical"
         android:layout_marginTop="38dp"
         android:backgroundTint="#A8B7D0"
+        android:fontFamily="@font/old_italic"
         android:text="Ver mis registros anteriores"
-        android:textColor="#000000"
-        android:fontFamily="@font/old_italic"/>
+        android:textColor="#000000" />
 </LinearLayout>
