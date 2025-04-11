@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "794418744318",
+    "project_id": "healthy-heart-c4932",
+    "storage_bucket": "healthy-heart-c4932.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794418744318:android:1b0ddb74e1ad7650034eaf",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm2IJgKzZZ_KNLz_0RlTvYXGc3enZm3dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794418744318:android:40056649b271114c034eaf",
+        "android_client_info": {
+          "package_name": "com.healthyheart.healthyheart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm2IJgKzZZ_KNLz_0RlTvYXGc3enZm3dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
