@@ -20,7 +20,7 @@ class bienvenida : AppCompatActivity() {
             insets
         }
 
-        // Aquí conectamos el botón INICIAR SESIÓN con el login (MainActivity)
+        // Aquí conectamos el botón INICIAR SESIÓN con el activity_login.xml (MainActivity)
         val btnIniciarSesion = findViewById<Button>(R.id.button4)
         btnIniciarSesion.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
