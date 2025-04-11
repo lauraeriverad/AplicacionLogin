@@ -54,3 +54,8 @@ de lo lejos que has llegado"
         android:layout_marginTop="32dp"
         android:backgroundTint="#CBD8E0"/>
 </LinearLayout>
+
+    <!--
+        Este es un comentario multilínea
+        que explica la sección de botones
+    -->

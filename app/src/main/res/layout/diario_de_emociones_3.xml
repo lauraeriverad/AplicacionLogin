@@ -84,3 +84,8 @@
         android:layout_marginBottom="32dp"
         android:backgroundTint="#CBD8E0"/>
 </RelativeLayout>
+
+    <!--
+        Este es un comentario multilínea
+        que explica la sección de botones
+    -->
