@@ -50,19 +50,23 @@
     <!-- VIDEOS DE LA BIBLIOTECA -->
     <string name="mensaje_videos_autoayuda">Cada video es una luz en tu camino, guiándote hacia el bienestar y la paz interior</string>
     <string name="titulo_videos_autoayuda">VIDEOS DE AUTOAYUDA</string>
+    <string name="salir">X</string>
 
     <!-- REFLEXIONES DE LA BIBLIOTECA -->
     <string name="titulo_reflexiones">REFLEXIONES</string>
     <string name="titulo_reflexion_1">El peso de un vaso de agua</string>
     <string name="titulo_reflexion_2">La roca en el camino</string>
     <string name="titulo_reflexion_3">El coleccionista de insultos</string>
+    <string name="salir4">X</string>
 
     <!-- LECTURA DEL VASO -->
     <string name="texto_peso_vaso_agua">El peso de un vaso de agua</string>
+    <string name="salir3">X</string>
     <string name="cuento_psicologico">Un psicólogo estaba desarrollando una sesión grupal cuando, de repente, levantó un vaso de agua. Todos esperaban la típica pregunta: “¿Está medio lleno o medio vacío?” Sin embargo, preguntó: – ¿Cuánto pesa este vaso? Las respuestas variaron entre 200 y 250 gramos. El psicólogo les respondió: – El peso absoluto no es importante. Depende de cuánto tiempo lo sostengo. Si lo sostengo un minuto, no representará un problema, pero si lo sostengo durante una hora, me dolerá el brazo. Si lo sostengo un día, mi brazo se entumecerá y paralizará. El peso del vaso no ha cambiado, siempre es el mismo. Pero cuanto más tiempo lo sujeto, más pesado y más difícil de soportar se vuelve. Moraleja: Este cuento psicológico nos recuerda que las preocupaciones, los pensamientos negativos, los rencores y el resentimiento son como ese vaso de agua. Si pensamos en ellos un rato, no pasa nada. Si pensamos en ellos todo el día, empiezan a doler. Y si pensamos en ellos durante toda la semana, acabaremos sintiéndonos paralizados e incapaces de hacer nada. Por eso, debemos aprender a dejar ir todo aquello que puede dañarnos.</string>
 
     <!-- FRASES DE LA BIBLIOTECA -->
     <string name="titulo_recuerda">Recuerda</string>
+    <string name="salir2">X</string>
     <string name="mensaje_inspirador">Aunque a veces dudes de ti mismo, quiero recordarte algo: eres valioso, fuerte y único. Cada paso que das, por pequeño que sea, es una muestra de tu valentía. No necesitas ser perfecto para ser increíble. Solo necesitas seguir adelante.</string>
 
 </resources>

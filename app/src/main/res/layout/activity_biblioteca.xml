@@ -111,20 +111,23 @@
         android:id="@+id/imageButton2"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="3dp"
         android:background="@null"
         android:contentDescription="@string/desc_boton_diario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:srcCompat="@drawable/diary" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="3dp"
         android:background="@null"
         android:contentDescription="@string/desc_boton_notificaciones"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -137,24 +140,29 @@
         android:id="@+id/imageButton4"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/news"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="4dp"
         android:background="@null"
         android:contentDescription="@string/desc_boton_noticias"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:srcCompat="@drawable/news" />
 
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="2dp"
         android:background="@null"
         android:contentDescription="@string/desc_boton_calendario"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button8"
         app:srcCompat="@drawable/calendar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

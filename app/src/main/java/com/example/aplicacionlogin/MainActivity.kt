@@ -11,12 +11,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-
-        val btnRegistro = findViewById<Button>(R.id.button)
+        // Configuración del botón de redirección
+        val btnRegistro = findViewById<Button>(R.id.button) // Aquí va el ID de tu botón
         btnRegistro.setOnClickListener {
+            // Intent para redirigir a la actividad biblioteca
+            val intent = Intent(this, biblioteca::class.java)
+            startActivity(intent) // Iniciar la actividad biblioteca
+        }
 
-            val intent = Intent(this, ActivityRegistro::class.java)
-            startActivity(intent)
+        // Configuración del botón de iniciar sesión
+        val btnIniciarSesion = findViewById<Button>(R.id.button2) // ID del botón en tu layout XML
+        btnIniciarSesion.setOnClickListener {
+            // Intent para redirigir a la actividad biblioteca
+            val intent = Intent(this, biblioteca::class.java) // Cambia 'biblioteca' al nombre correcto de tu actividad
+            startActivity(intent) // Iniciar la actividad biblioteca
         }
     }
 }
