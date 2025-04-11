@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btnRegistro = findViewById<Button>(R.id.button) // Aquí va el ID de tu botón
         btnRegistro.setOnClickListener {
             // Intent para redirigir a la actividad biblioteca
-            val intent = Intent(this, biblioteca::class.java)
+            val intent = Intent(this, ActivityRegistro::class.java)
             startActivity(intent) // Iniciar la actividad biblioteca
         }
 
